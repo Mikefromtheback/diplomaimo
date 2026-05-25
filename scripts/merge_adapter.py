@@ -1,5 +1,3 @@
-# %% [code]
-%%writefile merge.py
 from __future__ import annotations
 
 import argparse

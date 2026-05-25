@@ -675,7 +675,6 @@ async def rollout_single_trajectory(*, sampling_client: tinker.SamplingClient, e
             except TypeError:
                 new_messages = encoding.parse_messages_from_completion_tokens(tokens, Role.ASSISTANT)
             except Exception:
-                # Keep the raw text for reward extraction/debug, but mark the trajectory as malformed.
                 final_text_parts.append(assistant_text)
                 hard_truncated = True
                 reason = "parse_failed"
