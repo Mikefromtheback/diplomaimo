@@ -19,3 +19,10 @@
 ## Среда запуска
 
 Основные эксперименты выполнялись в Kaggle Notebook. В ноутбуках используются пути и подключаемые артефакты Kaggle.
+
+## Веса моделей
+
+Итоговые веса моделей доступны в Kaggle Datasets:
+
+- **dapo40**: https://www.kaggle.com/datasets/tkaggl/merged-dapo40/
+- **sb20**: https://www.kaggle.com/datasets/tkaggl/merged-sb20/
